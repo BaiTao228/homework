@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fitsSystemWindows="true"
+    android:background="@mipmap/login_bg">
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/ripple_white"
+        android:stateListAnimator="@null"
+        android:text="用户名登录" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ripple_white"
+        android:stateListAnimator="@null"
+        android:text="新浪微博" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/button_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ripple_white"
+        android:stateListAnimator="@null"
+        android:text="新浪微博" />
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_3"
+        android:layout_centerHorizontal="true"
+        android:text="注册"
+        android:textColor="@color/colorBule"
+        android:background="?android:attr/selectableItemBackground"/>
+
+
+    <TextView
+        android:id="@+id/text_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textColor="@color/colorWhite"
+        android:textSize="45dp" />
+
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:src="@mipmap/splash_logo" />
+
+    <ImageView
+        android:id="@+id/image_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/button_1"
+        android:layout_alignBottom="@+id/button_1"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/text_1"
+        android:src="@mipmap/ic_user" />
+
+    <ImageView
+        android:id="@+id/image_3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/button_2"
+        android:layout_alignBottom="@+id/button_2"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/text_1"
+        android:src="@mipmap/account_sina" />
+
+    <ImageView
+        android:id="@+id/image_4"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@id/button_3"
+        android:layout_alignBottom="@+id/button_3"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@id/text_1"
+        android:src="@mipmap/account_tencent" />
+
+</RelativeLayout>

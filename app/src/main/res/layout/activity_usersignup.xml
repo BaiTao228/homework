@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_register"
+    tools:context=".usersignup">
+    <EditText
+        android:id="@+id/edit_1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="用户名"
+        android:textColor="@color/colorBule"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ripple_bule"
+        android:paddingLeft="50dp"/>
+
+    <EditText
+        android:id="@+id/edit_2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/edit_1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/ripple_bule"
+        android:hint="密码"
+        android:paddingLeft="50dp"
+        android:textColor="@color/colorBule" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="37dp"
+        android:background="@mipmap/ic_back_register" />
+
+    <ImageView
+        android:id="@+id/image_5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignStart="@+id/edit_1"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:background="@mipmap/ic_user" />
+
+    <ImageView
+        android:id="@+id/image_6"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/image_5"
+        android:layout_alignStart="@+id/edit_2"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="26dp"
+        android:background="@mipmap/ic_lock" />
+
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="37dp"
+        android:layout_toRightOf="@id/button_5"
+        android:text="登录"
+        android:textColor="@color/colorBule"
+        android:textSize="40dp" />
+
+</RelativeLayout>
